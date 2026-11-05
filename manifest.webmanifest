@@ -1,0 +1,30 @@
+{
+ "name": "Lutheran Study Guide: Baptism, the Lord's Supper, and the Crux Theologorum",
+ "short_name": "Lutheran Guide",
+ "description": "Lutheran teaching in the words of the Lutheran Confessions and the LCMS, with Bible passages in seven translations.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f6f8f9",
+ "theme_color": "#1d5e78",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
