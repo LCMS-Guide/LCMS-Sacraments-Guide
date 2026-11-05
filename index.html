@@ -685,7 +685,7 @@ const GC_SITE = "lcms-guide";
 function gcEvent(name) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} }
 if (location.hostname === "lcms-guide.github.io") {
   // count the answer a shared link opens (e.g. /LCMS-Sacraments-Guide/#cq2), not just the page
-  window.goatcounter = { path: p => p + (/^#[a-z][\w-]*$/i.test(location.hash) ? location.hash : "") };
+  window.goatcounter = { path: p => p.replace(/\?.*$/, "") + (/^#[a-z][\w-]*$/i.test(location.hash) ? location.hash : "") };  // drop ?fbclid=… and similar so each answer is one row
   const gc = document.createElement("script");
   gc.async = true; gc.src = "https://gc.zgo.at/count.js"; gc.dataset.goatcounter = "https://" + GC_SITE + ".goatcounter.com/count";
   document.head.appendChild(gc);
