@@ -1,6 +1,6 @@
 # Baptism and the Lord's Supper
 
-A searchable guide to Lutheran (LCMS) teaching on Baptism and the Lord's Supper, in the words of the Lutheran Confessions (*Concordia*, 2nd ed.) and the LCMS, with Bible passages in seven translations and notes on the Greek and Hebrew.
+A searchable guide to Lutheran (LCMS) teaching on Baptism, the Lord's Supper, and the Crux Theologorum (election: why some are saved and not others), in the words of the Lutheran Confessions (*Concordia*, 2nd ed.) and the LCMS, with Bible passages in seven translations and notes on the Greek and Hebrew.
 
 **Read it here:** https://lcms-guide.github.io/LCMS-Sacraments-Guide/
 
