@@ -723,6 +723,11 @@ document.addEventListener("click", e => {
     const n = document.getElementById("offline-note"); if (n) n.hidden = false;
     const d = document.getElementById("dl-btn"); if (d) d.textContent = "Get the latest version";
   }
+  if (!onSite && location.protocol !== "file:") {
+    // previews and embedded viewers can't save files: hide the button and let the links simply open the website
+    const d = document.getElementById("dl-btn"); if (d) d.hidden = true;
+    document.querySelectorAll("#offline a[download]").forEach(a => { a.removeAttribute("download"); a.href = a.href.replace(/index\.html$/, ""); a.target = "_blank"; a.rel = "noopener"; });
+  }
   if (onSite && "serviceWorker" in navigator) {
     window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
   }
