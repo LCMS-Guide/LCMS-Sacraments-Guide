@@ -1,6 +1,6 @@
 // Offline support. Pages: network first, so an online visit always gets the latest guide; saved copy when offline.
 // Fonts: saved at install, so offline looks the same as online. The cache name changes with every release of index.html.
-const CACHE = "lutheran-guide-626290b83f29";
+const CACHE = "lutheran-guide-1c2b09da1645";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 const FONTS = "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Serif:wght@400&family=Noto+Serif+Hebrew:wght@400&display=swap";
 
