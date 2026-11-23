@@ -6,9 +6,10 @@ A searchable guide to Lutheran (LCMS) teaching on Baptism, the Lord's Supper, an
 
 Copyright notices for each Bible translation and for *Concordia* are at the bottom of the page.
 
-**Verse-by-verse pages:** two companion pages take one question each and go through the Bible passages behind the Lutheran answer, explained in word-for-word quotations from LCMS documents, with common objections and the LCMS's replies:
+**Verse-by-verse pages:** three companion pages take one question each and go through the Bible passages behind the Lutheran answer, explained in word-for-word quotations from LCMS documents, with common objections and the LCMS's replies:
 - [Close Communion: The Verses](https://lcms-guide.github.io/LCMS-Sacraments-Guide/verses/close-communion.html)
 - [Infant Baptism: The Verses](https://lcms-guide.github.io/LCMS-Sacraments-Guide/verses/infant-baptism.html)
+- [This Is My Body: why Lutherans do not read the Lord's Supper as only symbolic](https://lcms-guide.github.io/LCMS-Sacraments-Guide/verses/this-is-my-body.html)
 
 **Use it offline:** on a phone, open the link and choose *Add to Home Screen* (iPhone, in Safari) or *Install app* (Android, in a regular Chrome tab; the option doesn't appear in Incognito). On a computer, use the *Download the guide* button in the page's "Use it offline" section.
 
